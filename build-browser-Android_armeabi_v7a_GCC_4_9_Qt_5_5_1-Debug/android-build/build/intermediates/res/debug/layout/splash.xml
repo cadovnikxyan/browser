@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" />
+<!-- From: file:/home/alexey/qtproj/build-browser-Android_armeabi_v7a_GCC_4_9_Qt_5_5_1-Debug/android-build/__qt5__android__files__/res/layout/splash.xml -->

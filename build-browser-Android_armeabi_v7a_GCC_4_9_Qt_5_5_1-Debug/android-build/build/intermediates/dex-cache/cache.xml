@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/home/alexey/qtproj/build-browser-Android_armeabi_v7a_GCC_4_9_Qt_5_5_1-Debug/android-build/libs/QtAndroidWebView-bundled.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="7c9094b293c51b5c406873360bf1f16cbe391ae0">
+        <dex dex="/home/alexey/qtproj/build-browser-Android_armeabi_v7a_GCC_4_9_Qt_5_5_1-Debug/android-build/build/intermediates/pre-dexed/debug/QtAndroidWebView-bundled-f7b317f425c1a883a782a0849c45bb93c69ed4a8.jar" />
+    </item>
+    <item
+        jar="/home/alexey/qtproj/build-browser-Android_armeabi_v7a_GCC_4_9_Qt_5_5_1-Debug/android-build/libs/QtAndroidAccessibility-bundled.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="8609092e6748c064d5fb0a669e0d269a63190a42">
+        <dex dex="/home/alexey/qtproj/build-browser-Android_armeabi_v7a_GCC_4_9_Qt_5_5_1-Debug/android-build/build/intermediates/pre-dexed/debug/QtAndroidAccessibility-bundled-a542d2444d8e1c8084b502c7d34696d8cad1e665.jar" />
+    </item>
+    <item
+        jar="/home/alexey/qtproj/build-browser-Android_armeabi_v7a_GCC_4_9_Qt_5_5_1-Debug/android-build/libs/QtAndroidBearer-bundled.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="f525add508baa290493ffabf0268b59c21587a2f">
+        <dex dex="/home/alexey/qtproj/build-browser-Android_armeabi_v7a_GCC_4_9_Qt_5_5_1-Debug/android-build/build/intermediates/pre-dexed/debug/QtAndroidBearer-bundled-1b9e8bd741c73dbbc248404d5b1c8d12f0e9894c.jar" />
+    </item>
+    <item
+        jar="/home/alexey/qtproj/build-browser-Android_armeabi_v7a_GCC_4_9_Qt_5_5_1-Debug/android-build/libs/QtAndroid-bundled.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="60a7a73c59b414660b27e0bf5dc6c0eeade07804">
+        <dex dex="/home/alexey/qtproj/build-browser-Android_armeabi_v7a_GCC_4_9_Qt_5_5_1-Debug/android-build/build/intermediates/pre-dexed/debug/QtAndroid-bundled-be4bd8bd34635a6c48feac5eba6fc57d7bf7f997.jar" />
+    </item>
+
+</items>
