@@ -1,7 +1,7 @@
 import QtQuick 2.5
 import QtQuick.Controls 1.4
 import QtQuick.Dialogs 1.2
-import QtWebView  1.0
+import QtWebView 1.0
 import QtQuick.Layouts 1.2
 
 ApplicationWindow {
@@ -48,6 +48,7 @@ ApplicationWindow {
                clip: false
                onClicked:{
                    gourl("http://"+textInput1.text)
+                   webView.runJavaScript("document.lastModified", function(result) { text.text="last modified: "+result; });
                     }
 
         }
@@ -70,7 +71,7 @@ ApplicationWindow {
               width:1080
               height:60
               font.pixelSize:50
-              text:"dfhh"
+
           }
 
         ScrollView{
@@ -82,7 +83,7 @@ ApplicationWindow {
                        id: webView
                        url: "http://www.google.ru"
                        onLoadProgressChanged: progress(webView.loadProgress)
-                       runJavaScript: ("document.title", function(result) { console.log(result); });
+
                    }
 
                 }
@@ -96,9 +97,7 @@ ApplicationWindow {
             console.log(caption)
             webView.url=caption
         }
-        function httplast(caption){
 
-         }
 
 }
 
